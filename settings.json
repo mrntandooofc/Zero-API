@@ -1,6 +1,6 @@
 {
-  "name": "Wataru API",
-  "version": "Wataru UI",
+  "name": "Mr Ntando API",
+  "version": "Mr Ntando UI",
   "description": "Simple and Easy-to-Use API Documentation",
   "header": {
     "status": "Online!",
@@ -19,11 +19,11 @@
   "links": [
     {
       "name": "Source Code",
-      "url": "https://github.com/ajirodesu/wataru-api"
+      "url": "https://github.com/mrntandooofc/Ntando-api"
     },
     {
       "name": "Contact Me",
-      "url": "https://t.me/ajirodesu"
+      "url": "https://w.a/263771629199"
     }
   ],
   "notifications": [
