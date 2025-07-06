@@ -111,6 +111,16 @@ app.get('/api/info', (req, res) => {
   res.json({ categories: Object.values(categories) });
 });
 
+// Endpoint to expose background audio URL
+app.get('/api/background-audio', (req, res) => {
+  const backgroundAudioUrl = settings.backgroundAudio && settings.backgroundAudio.url;
+  if (backgroundAudioUrl) {
+    res.json({ url: backgroundAudioUrl });
+  } else {
+    res.status(404).json({ error: 'Background audio URL not found' });
+  }
+});
+
 // Serve index.html for the root route
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'web', 'portal.html'));
